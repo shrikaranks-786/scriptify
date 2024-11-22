@@ -8,20 +8,26 @@
     "start": "next start",
     "lint": "next lint",
     "push": "drizzle-kit push:pg",
-    "pull": "drizzle-kit introspect:pg ",
-    "generate": "drizzle-kit generate:pg",
+    "pull": "drizzle-kit introspect ",
+    "generate": "drizzle-kit generate",
     "drop": "drizzle-kit drop",
     "check": "drizzle-kit check:pg",
     "up": "drizzle-kit up:pg"
   },
   "dependencies": {
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
     "dotenv": "^16.4.5",
     "drizzle-orm": "^0.36.3",
+    "lucide-react": "^0.460.0",
     "next": "15.0.3",
+    "next-themes": "^0.4.3",
     "pg": "^8.13.1",
     "postgres": "^3.4.5",
     "react": "19.0.0-rc-66855b96-20241106",
-    "react-dom": "19.0.0-rc-66855b96-20241106"
+    "react-dom": "19.0.0-rc-66855b96-20241106",
+    "tailwind-merge": "^2.5.4",
+    "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
     "@types/node": "^20",
